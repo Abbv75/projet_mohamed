@@ -1,0 +1,30 @@
+header{
+    background-image: url('../ressources/images/s22ultra2.webp');
+}
+header>h1{
+    box-shadow: initial;
+}
+.duo>div{
+    background: linear-gradient(45deg, rgb(164, 164, 255), pink);
+    margin-bottom:10px;
+    height: fit-content;
+    padding:20px;
+    border-radius: 15px;
+}
+.scrollable{
+    height:500px;
+    width:95%;
+    overflow-y: scroll;
+    margin: 30px 0;
+}
+.scrollable .smartphone{
+    min-width: 27%;
+}
+.smartphone img{
+    background-color: white;
+}
+@media screen and (max-width: 700px){
+    .scrollable .smartphone{
+        min-width: 300px;
+    }
+}

@@ -1,0 +1,248 @@
+@import url('fontawesome/css/all.css');
+@import url('reponse.css');
+@import url('keyframe.css');
+@font-face {
+    font-family: 'qualy_bold';
+    src: url('../ressources/fonts/Qualy_Bold.ttf');
+}
+nav{
+    width:fit-content;
+    position:fixed;
+    top:20px;
+    right:20px;
+    z-index:999;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: 100;
+}
+body{
+    padding:0;
+    font-family: arial;
+}
+.menu_dote>i{
+    font-size: 30px;
+    padding:5px;
+    color:white;
+}
+.menu_dote{
+    text-align: center;
+    background: black;
+    border-radius: 8px;
+    cursor:pointer;
+}
+.icone_zone{
+    margin-top:30px;
+    width:40px;
+    background: rgba(255, 255, 255, 0.404);
+    border: 1px solid black;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    display: flex;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    
+}
+.icone_zone i{
+    min-width: 20px;
+    padding:10px 0;
+}
+.icone_zone i:hover{
+    color:blue;
+}
+
+header{
+    background-image: url('../ressources/images/PCD_KV_Family_PC_1440x640.webp');
+    background-repeat: no-repeat;
+    height:400px;
+    background-size: 100%;
+    margin: 0;
+    background-position:0px, -20px;
+    font-family: qualy_bold;
+    display: flex;
+    width:100%;
+}
+header>h1{
+    align-self: center;
+    backdrop-filter: blur(5px);
+    padding:30px;
+    border-radius: 50px;
+    background: rgb(0, 0, 0);
+    box-shadow: 15px 15px 15px rgb(88, 88, 88);
+    margin-left:20px;
+    color:white;
+}
+h1,nav{
+    user-select: none;
+}
+.presentation>h1{
+    text-align: center;
+    padding:30px;
+    font-family: qualy_bold;
+}
+.presentation span{
+    font-size: 50px;
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.presentation2 span{
+    font-size: 400px;
+    transition: all 0.2s ease-in;
+}
+.presentation2 span:hover{
+    
+    color:rgb(0, 0, 201);
+}
+.smartphone_zone{
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.smartphone{
+    width:20%;
+    border-radius: 15px;
+    background-color: white;
+    backdrop-filter: blur(3px);
+}
+.smartphone>img{
+    width:100%;
+    z-index: 1;
+    transition: all 0.2s ease-in;
+}
+.smartphone>img:hover{
+    /* transform: rotate(10deg); */
+    transform: scale(1.35) translateY(30px);
+    
+}
+.smartphone>div{
+    text-align:center;
+    font-family: arial;
+    font-weight: bold;
+    background: black ;
+    color:white;
+    border:1px solid;
+    z-index: 2;
+    border-radius: 0 0 10px 10px;
+}
+.smartphone>div>h2{
+    padding:none;
+}
+.title{
+    text-align:center;
+    font-family: arial;
+}
+.btn_zone{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    padding:0 15%;
+    margin:auto;
+}
+.btn_zone>button, form button{
+    padding:15px;
+    border-radius: 25px;
+    border:1px black solid;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    transition: all 100ms ease-in;
+    margin:15px 30px;
+}
+.btn_zone>button:hover,form button:hover{
+    cursor:pointer;
+    color:white;
+    background-color: black;
+    border-color: white;
+    
+    font-size: 20px;
+}
+.oneui4{
+    width:100%;
+}
+
+.duo, footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:30px;
+}
+.duoleft>h1{
+    text-align:left;
+}
+.duoright, .duoright>h1{
+    margin-top:50px;
+    text-align:right;
+}
+.duo>div, footer>div{
+    min-width:400px;
+    width:40%;
+}
+.duo>div>img{
+    width:100%;
+}
+
+footer{
+    background:linear-gradient(60deg, rgb(193, 212, 255), rgb(255, 177, 255));
+}
+footer form{
+    padding:30px;
+    background-color: rgba(255, 255, 255, 0.377);
+    border-radius: 15px;
+}
+
+footer>div:nth-child(2){
+    margin:auto;
+    margin-top:20px;
+}
+footer>div{
+    margin-top:20px;
+}
+footer input{
+    width:100%;
+    border:none;
+    border-bottom: 1px pink solid;
+    background: linear-gradient(transparent, white);
+    padding:5px;
+    font-size: 18px;
+}
+
+footer img{
+    width:70%;
+    margin-left:15%;
+}
+.btn_social_zone{
+    display: flex;
+    width:70%;
+    margin:20px 15%;
+    justify-content: space-around;
+}
+.btn_social_zone>i{
+    font-size: 30px;
+    padding:10px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.342);
+    transition: color 0.3s ease-in;
+}
+.btn_social_zone>i:nth-child(1):hover{
+    color:green;
+}.btn_social_zone>i:nth-child(3):hover{
+    color:blue;
+}.btn_social_zone>i:nth-child(2):hover{
+    color:yellow;
+}.btn_social_zone>i:nth-child(4):hover{
+    color:orange;
+}
+form p{
+    text-align: right;
+}
+form button{
+    background: transparent;
+}

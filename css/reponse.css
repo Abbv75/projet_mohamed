@@ -1,0 +1,28 @@
+@media screen and (max-width: 700px){
+    .smartphone{
+        margin: 20px 0;
+        min-width: 300px;
+    }
+    header{
+        height:100px;
+        margin-top: none;
+    }
+    header h1{
+        font-size: initial;
+    }
+    .presentation2 span{
+        font-size: 30px;
+    }
+    .duo>div{
+        width:100%;
+    }
+    .duo>div>img{
+        border-radius: 10px;
+    }
+    .scrollable .smartphone{
+        min-width: 300px;
+    }
+    .btn_zone{
+        padding:0 4%;
+    }
+}
